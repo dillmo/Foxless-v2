@@ -1,0 +1,265 @@
+<?xml version="1.0" ?><enemy><behaviour><root x="110" y="40"><normal><condition id="isInNamedArea"><string id="area name">HEALAREA</string><string id="team" values="ownenemy">OWN_TEAM</string><string id="who" values="targetself">self</string><string id="Comment">Am I in shop?</string><normal><condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinAssail</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinAssail</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinAssail</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinJolt</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinJolt</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinJolt</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">PiggyBank</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">PiggyBank</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">PiggyBank</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinStrikeSelfheal</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinStrikeSelfheal</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinStrikeSelfheal</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinSpeed</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinSpeed</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinSpeed</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinJoltNexthit1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinJoltNexthit1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinJoltNexthit1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinAssailCharge</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinAssailCharge</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinAssailCharge</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinJoltNexthit2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinJoltNexthit2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinJoltNexthit2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinAssailDmg</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinAssailDmg</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinAssailDmg</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinAssailDmg2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinAssailDmg2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinAssailDmg2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinStrikeAttspd1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinStrikeAttspd1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinStrikeAttspd1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinStrikeAttspd2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinStrikeAttspd2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinStrikeAttspd2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinStrikeDmg1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinStrikeDmg1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinStrikeDmg1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinStrikeDmg2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinStrikeDmg2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinStrikeDmg2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">addHealth1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">addHealth1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">addHealth1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">addHealth2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">addHealth2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">addHealth2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">addHealth3</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">addHealth3</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">addHealth3</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinJoltDebuff1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinJoltDebuff1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinJoltDebuff1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinJoltDebuff2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinJoltDebuff2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinJoltDebuff2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinJoltDmgpercharge1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinJoltDmgpercharge1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinJoltDmgpercharge1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinJoltDmgpercharge2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinJoltDmgpercharge2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinJoltDmgpercharge2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinJoltDmgpercharge3</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinJoltDmgpercharge3</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinJoltDmgpercharge3</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinAssailStun1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinAssailStun1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinAssailStun1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">AssassinAssailStun2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">AssassinAssailStun2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">AssassinAssailStun2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+</else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></normal></condition></normal></root></behaviour></enemy>
